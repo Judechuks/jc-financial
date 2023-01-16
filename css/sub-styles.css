@@ -1,0 +1,172 @@
+
+/*================ MODIFICATION ================*/
+
+/*=========== lOGIN, RESET AND SIGNUP ===========*/
+.login-container,
+.reset-container,
+.signup-container{
+  position: relative;
+  width: 100%;
+  background: #ccc;
+  padding-top: 125px;
+  padding-bottom: 25px;
+  min-height: 85vh;
+}
+
+.login-container .login-box,
+.reset-container .reset-box,
+.signup-container .signup-box{
+  margin-right: auto;
+  margin-left: auto;
+  width: 320px;
+  height: fit-content;
+  background: rgba(0, 0, 0, .9);
+  color: #fff;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px 30px 20px;
+}
+.login-container .fa-user-circle,
+.reset-container .fa-user-circle,
+.signup-container .fa-user-circle{
+  font-size: 6rem;
+  color: var(--main-color);
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 3rem);
+  top: -3rem;
+  cursor: pointer;
+}
+.login-container h1,
+.reset-container h1,
+.signup-container h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px auto 25px;
+}
+.login-container label,
+.reset-container label,
+.signup-container label{
+  display: block;
+  margin-bottom: 8px;
+}
+.login-container input:not([type="submit"]),
+.reset-container input:not([type="submit"]),
+.signup-container input:not([type="submit"]){
+  margin-bottom: 18px;
+  padding: 4px 4px 4px 28px;
+  font-size: 1.063rem;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+}
+.login-container input:not([type="submit"])::placeholder,
+.reset-container input:not([type="submit"])::placeholder,
+.signup-container input:not([type="submit"])::placeholder{
+  color: #bbb;
+}
+.login-container #submit-btn,
+.reset-container #submit-btn,
+.signup-container #submit-btn{
+  display: block;
+  margin: 0 auto 18px;
+  font-size: 1.3rem;
+  height: 35px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  border-radius: 15px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+.login-container #submit-btn:hover,
+.reset-container #submit-btn:hover,
+.signup-container #submit-btn:hover{
+  cursor: pointer;
+  background: var(--card-color);
+}
+.login-container .forgot,
+.login-container .new,
+.signup-container .member{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+.login-container .new{
+  margin-top: 5px;
+}
+.login-container .forgot:hover,
+.login-container .new:hover,
+.signup-container .member:hover{
+  color: var(--main-color);
+}
+.login-container .input-icon,
+.reset-container .input-icon,
+.signup-container .input-icon{
+  position: absolute;
+  color: var(--main-color);
+  padding: 6px 0  0 4px;
+  font-size: 1.1rem;
+}
+
+.reset-container .info{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.reset-container .title{
+  margin-bottom: 10px;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+@media screen and (max-width: 320px) {
+  .login-container .login-box,
+  .reset-container .reset-box,
+  .signup-container .signup-box{
+    width: 264px;
+  }  
+}
+
+@media screen and (min-height: 800px) {
+  .login-container,
+  .reset-container{
+    padding-top: 15%;
+  }
+  .signup-container{
+    padding-top: 10%;
+  }  
+  .login-container,
+  .reset-container,
+  .signup-container{
+    min-height: 87vh;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .login-container,
+  .reset-container{
+    padding-top: 40%;
+  }
+  .signup-container{
+    padding-top: 30%;
+  }  
+}
+
+@media screen and (min-height: 1200px) {
+  .login-container,
+  .reset-container,
+  .signup-container{
+    min-height: 88vh;
+  }
+}
+
+@media screen and (min-height: 1400px) {
+  .login-container,
+  .reset-container,
+  .signup-container{
+    min-height: 92vh;
+  }
+}
