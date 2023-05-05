@@ -27,7 +27,7 @@ Contains the different platforms users can you to react out to the support teams
 Contains the different available tips and tools that will be made available to customers.
 
 ### 7. FOOTER SECTION
-Contains the different social media platforms users can you to reach out to the support teams, copyright info, etc.
+Contains the different social media platforms users can use to reach out to the support teams, copyright info, etc.
 
 ## Technologies
 The technologies involved includes:
