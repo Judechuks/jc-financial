@@ -14,7 +14,7 @@ Which contains the logo, navigation links, and the login and signup page.
 ### 2. BANNER SECTION
 Which contains intro message for the user and the signup link. Immediately followed by the working procedures
 
-### 3.  SECTION
+### 3. PROCEDURE SECTION
 Contains the procedure and their terms and conditions on each financial plans.
 
 ### 4. SAVINGS SECTION
